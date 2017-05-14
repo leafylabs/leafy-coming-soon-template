@@ -166,3 +166,43 @@ body {
     width: 42rem;
   }
 }
+
+/* countdown */
+.styled{
+  margin-bottom: 20px;
+}
+.styled div {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1;
+  text-align: right;
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  padding-top: 3px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+/* TODO */
+.tbme-color {
+	color: #ff6900;
+}
+
+.tbme-size {
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
